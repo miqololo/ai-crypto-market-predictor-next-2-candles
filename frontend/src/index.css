@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0f0f12;
+  --bg-secondary: #18181c;
+  --accent: #00d4aa;
+  --accent-dim: #00a88a;
+  --text: #e4e4e7;
+  --text-muted: #71717a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  color: var(--text);
+  font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+}

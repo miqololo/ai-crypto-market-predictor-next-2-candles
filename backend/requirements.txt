@@ -1,0 +1,49 @@
+# Data & Exchange
+ccxt>=4.2.0
+pymongo>=4.6.0
+
+# Technical Analysis
+pandas>=2.0.0
+pandas-ta>=0.3.14b
+numpy>=1.24.0
+
+# Pattern Search (FAISS + DTW)
+faiss-cpu>=1.7.4
+fastdtw>=0.3.4
+
+# Backtesting
+vectorbt>=0.26.0
+backtesting>=0.3.3
+
+# RAG / LLM
+chromadb>=0.4.22
+sentence-transformers>=2.2.0
+transformers>=4.36.0
+torch>=2.0.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+
+# Optimization
+optuna>=3.4.0
+
+# ML (Random Forest + XGBoost/LightGBM)
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# API
+httpx>=0.26.0
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Utils
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# OCR
+easyocr>=1.7.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+langdetect>=1.0.9
